@@ -1,0 +1,11 @@
+CreditoID,ClienteID,ProductoID,AsesoramientoID,Fecha de credito,Monto de credito,Estado de credito
+1,1,1,1,01/02/2020,1,Activo
+2,2,2,2,26/02/2020,500,Pagado
+3,3,3,3,22/03/2020,1000,Activo
+4,4,4,4,16/04/2020,1500,Pagado
+5,5,5,5,11/05/2020,2000,Activo
+6,6,6,,05/06/2020,2500,Pagado
+7,7,7,7,30/06/2020,3000,Activo
+8,8,8,8,25/07/2020,3500,Pagado
+9,9,9,9,19/08/2020,4000,Activo
+10,10,10,10,13/09/2020,4500,Pagado

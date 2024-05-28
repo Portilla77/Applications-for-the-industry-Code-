@@ -1,0 +1,11 @@
+OperacionID,ClienteID,Monto,AsesoramientoID,ProductoID,Fecha de operacion,Tipo de operacion
+1,1,1000,1,1,01/01/2020,Depósito
+2,2,2000,2,2,21/01/2020,Retiro
+3,3,3000,3,3,10/02/2020,Depósito
+4,4,4000,4,4,01/03/2020,Retiro
+5,5,5000,5,5,21/03/2020,Depósito
+6,6,6000,,6,10/04/2020,Retiro
+7,7,7000,7,7,30/04/2020,Depósito
+8,8,8000,8,8,20/05/2020,Retiro
+9,9,9000,9,9,09/06/2020,Depósito
+10,10,10000,10,10,29/06/2020,Retiro

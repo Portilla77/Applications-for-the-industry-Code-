@@ -1,0 +1,38 @@
+USE [TEST BANREGIO]
+DROP TABLE IF EXISTS Estudiantes;
+;
+CREATE TABLE Estudiantes (
+	ID INT PRIMARY KEY,
+	Nombre NVARCHAR(100)
+);
+INSERT INTO Estudiantes (ID,Nombre) VALUES
+	(1,'Manuel'),
+	(2,'Tania'),
+	(3,'Pedro'),
+	(4,'Ana')
+;
+
+DROP TABLE IF EXISTS Amigos;
+CREATE TABLE Amigos (
+ID INT PRIMARY KEY,
+Amigo_ID INT,
+FOREIGN KEY (Amigo_ID) REFERENCES Estudiantes(ID)
+);
+INSERT INTO Amigos (ID,Amigo_ID) VALUES
+(1,2),
+(2,3),
+(3,4),
+(4,1)
+;
+
+DROP TABLE IF EXISTS Salario;
+CREATE TABLE Salario (
+ID INT PRIMARY KEY,
+Salario FLOAT,
+FOREIGN KEY (ID) REFERENCES Estudiantes(ID)
+);
+INSERT INTO  Salario (ID,Salario) VALUES
+(1,15200.10),
+(2,10060.20),
+(3,11500.50),
+(4,12120.00)

@@ -12,6 +12,8 @@ statsmodels = "*"
 seaborn = "*"
 matplotlib = "*"
 scikit-learn  = "*"
+pyodbc = "*"
+
 [dev-packages]
 
 [requires]
